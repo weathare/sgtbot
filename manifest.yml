@@ -1,0 +1,8 @@
+---
+applications:
+- name: sugutn
+  path: .
+  command: bundle exec ruboty --dotenv
+  instances: 1
+  memory: 256M
+
