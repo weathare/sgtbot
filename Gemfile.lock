@@ -25,6 +25,9 @@ GEM
     minitest (5.9.0)
     multipart-post (2.0.0)
     rack (2.0.1)
+    redis (3.3.1)
+    redis-namespace (1.5.2)
+      redis (~> 3.0, >= 3.0.4)
     ruboty (1.2.4)
       activesupport
       bundler
@@ -34,6 +37,12 @@ GEM
     ruboty-alias (0.0.8)
       ruboty (>= 1.1.1)
     ruboty-echo (0.1.0)
+      ruboty
+    ruboty-redis (0.0.6)
+      redis
+      redis-namespace
+      ruboty
+    ruboty-reminder (0.2.2)
       ruboty
     ruboty-slack (0.1.12)
       ruboty (>= 1.0.4)
@@ -55,8 +64,13 @@ DEPENDENCIES
   ruboty
   ruboty-alias
   ruboty-echo
+  ruboty-redis
+  ruboty-reminder
   ruboty-slack
   ruboty-talk
+
+RUBY VERSION
+   ruby 2.3.1p112
 
 BUNDLED WITH
    1.12.5

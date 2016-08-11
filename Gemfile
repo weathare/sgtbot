@@ -4,6 +4,7 @@ ruby "2.3.1"
 gem "ruboty"
 gem "ruboty-alias"
 gem "ruboty-echo"
+gem "ruboty-reminder"
 gem "ruboty-talk"
 gem "ruboty-slack"
-
+gem "ruboty-redis"
